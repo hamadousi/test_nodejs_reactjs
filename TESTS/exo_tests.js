@@ -7,7 +7,8 @@
 *
 * @return int 
 **/
-function traitementTableau(tableau){
+/*@flow*/
+function traitementTableau(tableau : Array<string>): number{
 	var nbrElement=0;
 
 	//Recherche des elements dont la longueur est strictement supérieure à 50
